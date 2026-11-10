@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        // Environment Settings
+        // See also https://aka.ms/tsconfig/module
+        "module": "esnext",
+        "target": "esnext",
+        "types": [],
+        // Other outputs
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        // Stricter typechecking Options
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+        // Recommended options
+        "strict": true,
+        "jsx": "react-jsx",
+        "verbatimModuleSyntax": true,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+        "skipLibCheck": true,
+        "moduleResolution": "bundler"
+    }
+}
