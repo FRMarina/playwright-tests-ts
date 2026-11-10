@@ -1,0 +1,29 @@
+{
+  "name": "playwright-tests-ts",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/FRMarina/playwright-tests-ts#readme",
+  "bugs": {
+    "url": "https://github.com/FRMarina/playwright-tests-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRMarina/playwright-tests-ts.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "example.spec.ts",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:codegen": "playwright test codegen.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
