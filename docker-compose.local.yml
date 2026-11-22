@@ -1,0 +1,13 @@
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    ipc: host
+    environment:
+      - CI=true
+    volumes:
+      - ./playwright-report:/app/playwright-report
+      - ./test-results:/app/test-results
+      - ./tests/example.spec.ts-snapshots:/app/tests/example.spec.ts-snapshots
